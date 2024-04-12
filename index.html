@@ -1,1 +1,36 @@
-<h1>dhkasdlsfs</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container flex flex-col h-screen justify-center items-center text-center">
+        <h1 class="text-8xl font-bold mb-4">Countdown F1</h1>
+        <div id="countdown" class="flex gap-12 text-3xl">
+            <div class="flex flex-col">
+                <p id="days" class="inline-block mr-2 text-5xl"></p>
+                <span class="inline-block mr-2">Days</span>
+            </div>
+            <div class="flex flex-col">
+                <p id="hours" class="inline-block mr-2 text-5xl"></p>
+                <span class="inline-block mr-2">Hours</span>
+            </div>
+            <div class="flex flex-col">
+                <p id="minutes" class="inline-block mr-2 text-5xl"></p>
+                <span class="inline-block mr-2">Minutes</span>
+            </div>
+            <div class="flex flex-col">
+                <p id="seconds" class="inline-block mr-2 text-5xl"></p>
+                <span class="inline-block">Seconds</span>
+            </div>
+        </div>
+        <div class="flex justify-center mt-20 ">
+            <img height="200" width="200" src="200w.gif" alt="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
