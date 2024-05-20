@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="h-screen w-full flex flex-col justify-center items-center">
+        <p id="typed-text" class="text-5xl"></p>
+        <div class="w-full flex justify-around mt-[50%]">
+            <img class="w-40" src="./assets/TICs/Infograph.png" alt="">
+            <img class="w-40" src="./assets/TICs/TicsLogo.jpg" alt="">
+            <img class="w-40" src="./assets/TICs/WebDevLogo.png" alt="">
+        </div>
+        <!-- <p class="text-3xl"></p> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        var typed = new Typed('#typed-text', {
+            strings: ['Bienvenidos a la visita de TICs Décimos 2025'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            startDelay: 500,
+            backDelay: 3000,
+            loop: true
+        });
+    </script>
+</body>
+</html>
