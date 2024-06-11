@@ -13,7 +13,7 @@ function calculateDifference(futureDate) {
 
 // Function to update the countdown in the interface
 function updateCountdown() {
-    const futureDate = new Date('2024-06-08T00:00:00'); // Future date for the countdown
+    const futureDate = new Date('2024-10-25T00:00:00'); // Future date for the countdown
     const difference = calculateDifference(futureDate);
 
     const daysElement = document.getElementById('days');
